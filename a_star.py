@@ -152,6 +152,7 @@ straight_line_dists_from_bucharest = {
     'Zerind':374
 }
 
+#Testado com os exemplos do professor Razer (Arad->Bucharest) e também do trabalho (Lugoj->Bucharest)
 print('Bem vindo(a) ao GPS que é BOM! Aqui garantimos o BOM Caminho ;)')
-#start = input('Informe a cidade de origem: ')
-a_star('Neamt')
+start = input('Informe a cidade de origem: ')
+a_star(start)
